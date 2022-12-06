@@ -4,7 +4,7 @@ root = Tk()
 lbl1 = Label(root, text='Opponent choise')
 lbl2 = Label(root, text='Your choise')
 lbl3 = Label(root, text='Result')
-def kamen(): 
+def kamen():
     a = ['kamen', 'nozhnicy', 'bumaga']
     rand = random.choice (a)
     lbl1.config(text=rand)
